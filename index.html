@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="build/css/style.css">
+   <title>Document</title>
+</head>
+<body>
+   <div class="container">
+
+      <section class="manager">
+         <img src="./src/img/Avatar.png" alt="manager's photo" class="manager__photo">
+         <div class="mahager__head-container">
+            <h2 class="manager__name">Вероника Ростова</h2>
+            <p class="manager__position">Менеджер по продажам</p> 
+         </div>         
+         <div class="manager__description">
+            <p class="manager__description-text">Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны</p>
+         </div>
+      </section>
+
+      <section class="statistic">
+         <div class="statistic__line--top"></div>
+         <div class="statistic__line--bottom"></div>
+         <table>
+            <tr class="statistic__header">
+               <td></td>
+               <td class="statistic__header-column">Услуг</td>
+            </tr>
+            <tr>
+               <td class="statistic__name">
+                  <div class="statistic__progress statistic__progress--early-booking"></div>
+                  Ручное бронирование</td>
+               <td class="statistic__value">11</td>
+            </tr>
+            <tr>
+               <td class="statistic__name">
+                  <div class="statistic__progress statistic__progress--package-tours"></div>
+                  Пакетные туры</td>
+               <td class="statistic__value">3</td>
+            </tr>
+            <tr>
+               <td class="statistic__name">
+                  <div class="statistic__progress statistic__progress--hotels"></div>
+                  Отели</td>
+               <td class="statistic__value">1</td>
+            </tr>
+            <tr>
+               <td class="statistic__footer">Всего</td>
+               <td class="statistic__value statistic__footer">15</td>
+            </tr>
+         </table>
+      </section>
+
+      <section class="feedback">
+         <div class="feedback__sub-wrapper">
+            <h2 class="feedback__heading">Последние отзывы</h2> 
+            <a href="#" class="feedback__reviews">Все отзывы</a>
+         </div>
+         <div class="feedback__sub-wrapper feedback__sub-wrapper--likes">
+            <span class="feedback__likes">131</span>
+            <span class="feedback__comments">14</span>
+         </div>
+      </section>
+
+      <section class="comments">
+         <div class="comments__comment">
+            <div class="comments__head">
+               <h3 class="comments__author">Самуил</h3>
+               <span class="comments__date">13 октября 2011</span>
+            </div>
+            <div class="comments__text">
+               <p>Привет, Верунь! ниче себе ты крутая. фотка класс!!!! </p>
+            </div>
+         </div>
+         <div class="comments__comment">
+            <div class="comments__head">
+               <h3 class="comments__author">Лилия Семёновна</h3>
+               <span class="comments__date">14 октября 2011</span>
+            </div>
+            <div class="comments__text">
+               <p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</p>
+            </div>
+         </div>
+         <div class="comments__comment">
+            <div class="comments__head">
+               <h3 class="comments__author">Лилия Семёновна</h3>
+               <span class="comments__date">14 октября 2011</span>
+            </div>
+            <div class="comments__text">
+               <p>Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+            </div>
+         </div>
+      </section> 
+
+      <section>
+         <form class="form" action="#" method="POST">
+            <textarea class="textarea" name="comment" id="comment-field" rows="3" cols="auto"></textarea>
+            <button class="button" type="submit">Написать консультанту</button>
+         </form>
+      </section>
+
+   </div>
+
+   <script src="build/js/script.js"></script>
+</body>
+</html>
