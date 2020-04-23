@@ -16,17 +16,15 @@ h2 {
 .container {
    min-width: 360px;
    max-width: 720px;
-   /* width: 489px; */
    margin: 0 auto;
-   padding: 20px;
+   padding: 15px 22px 10px 10px;
    display: flex;
    flex-direction: column;
 }
 
 .manager {
    position: relative;
-   /* width: 467px; */
-   min-height: 124px; 
+   min-height: 110px; 
    display: flex;
    flex-direction: column;
 }
@@ -34,6 +32,7 @@ h2 {
 .manager__photo {
    position: absolute;
    z-index: 10;
+   top: -10px;
    width: 124px;
    height: 124px;
    background: #7f8c8c no-repeat 50% 50%;
@@ -46,7 +45,6 @@ h2 {
 
 .manager__name {
    margin: 0; 
-   margin-bottom: 2px;
    font-weight: bold;
    font-size: 16px;
    line-height: 20px;
@@ -54,16 +52,15 @@ h2 {
 
 .manager__position, .comments__date {
    margin: 0; 
-   margin-bottom: 6px;
+   margin-bottom: 5px;
    font-size: 12px;
    line-height: 20px;
    color: #808080;
 }
 
 .manager__description {
-   min-height: 54px;
    margin-left: 86px;
-   padding: 10px 10px 10px 45px;
+   padding: 5px 10px 5px 45px;
    background: #FFFBC8;
    border: 1px solid #DADADA;
    box-sizing: border-box;
@@ -74,7 +71,7 @@ h2 {
    margin: 0;
    padding: 0;
    font-size: 14px;
-   line-height: 19px;
+   line-height: 21px;
    color: #333333;
 }
 
@@ -102,16 +99,16 @@ h2 {
 }
 
 .statistic__header-column{
-   padding-bottom: 20px;
+   padding: 0 31px 21px 31px;
    text-align: start ;
 }
 
 .statistic__name{
    position: relative;
    width:100%;
-   min-width: 115px;
+   /* min-width: 213px; */
    padding: 0;
-   padding-left: 6px;
+   padding-left: 5px;
    font-size: 13px;
    line-height: 24px;
    color: #333333;
@@ -126,17 +123,17 @@ h2 {
 }
 
 .statistic__progress--early-booking {
-   width: 73%;
+   width: 100%;
    background: #B1E19B;
 }
 
 .statistic__progress--package-tours {
-   width: 20%;
+   width: 28%;
    background: #ACE2F8;
 }
 
 .statistic__progress--hotels {
-   width: 7%;
+   width: 9%;
    background: #ACE2F8;
 }
 
@@ -148,18 +145,22 @@ h2 {
 }
 
 .statistic__footer {
-   padding-top: 20px;
+   padding-top: 25px;
+   padding-bottom: 1px;
    font-weight: bold;
    font-size: 16px;
    line-height: 26px;
-   text-align: start ;
    color: #333333;
 }
 
+.statistic__footer--value {
+   padding-bottom: 0px;
+   text-align: center;
+}
 .feedback {
    display: flex;
    justify-content: space-between;
-   margin-bottom: 11px;
+   margin-bottom: 13px;
 }
 
 .feedback__sub-wrapper {
@@ -185,7 +186,7 @@ h2 {
 }
 
 .feedback__comments{
-   margin-left: 35px;
+   margin-left: 15px;
 }
 
 .feedback__likes::before {
@@ -293,4 +294,14 @@ h2 {
    background: #FDD639;
    border-radius: 23px;
    box-shadow: none;
+}
+
+.button:hover {
+   background-color: #f5c13e;
+   box-shadow: 4px 1px 20px -8px #dba725;
+}
+
+.button:active {
+   background-color: #f0cc71;
+   box-shadow: 4px 1px 20px -8px #3d2c00;
 }
