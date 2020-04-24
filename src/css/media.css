@@ -62,6 +62,7 @@ h2 {
 
 .manager__description {
    margin-left: 86px;
+   margin-bottom: 10px;
    padding: 5px 10px 5px 45px;
    background: #FFFBC8;
    border: 1px solid #DADADA;
