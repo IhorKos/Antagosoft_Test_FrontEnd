@@ -76,10 +76,20 @@ h2 {
 }
 
 .statistic {
-   margin: 0;
-   position: relative;
-   margin-left: 133px;
+   display: flex;
+   justify-content: space-around;
    margin-bottom: 15px;
+}
+
+.statistic__stub {
+   width:100%;
+   min-width: 12px;
+   max-width: 130px;
+}
+.statistic__main {
+   position: relative;
+   width: 100%;
+   min-width: 318px;
 }
 
 .statistic__line--top {
