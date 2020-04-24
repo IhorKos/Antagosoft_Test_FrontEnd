@@ -205,7 +205,7 @@ h2 {
    width: 16px;
    height: 16px;
    margin-right: 5px;
-   background-image: url(/src/img/like.png);
+   background-image: url(../../src/img/like.png);
    background-size: 13px 13px;
    background-repeat: no-repeat;
    background-position: center;
@@ -217,7 +217,7 @@ h2 {
    width: 16px;
    height: 16px;
    margin-right: 5px;
-   background-image: url(/src/img/comment.png);
+   background-image: url(../../src/img/comment.png);
    background-size: 13px 13px;
    background-repeat: no-repeat;
    background-position: center;
