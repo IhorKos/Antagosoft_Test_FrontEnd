@@ -19,7 +19,7 @@ h2 {
    min-width: 338px;
    max-width: 720px;
    margin: 0 auto;
-   padding: 15px 22px 10px 10px;
+   padding: 20px;
    display: flex;
    flex-direction: column;
 }
