@@ -106,7 +106,7 @@ h2 {
 .statistic__name{
    position: relative;
    width:100%;
-   /* min-width: 213px; */
+   min-width: 134px;
    padding: 0;
    padding-left: 5px;
    font-size: 13px;
